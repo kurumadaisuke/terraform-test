@@ -12,3 +12,7 @@ provider "aws" {
   region  = "ap-northeast-1"
   profile = "default"
 }
+
+module "static_content" {
+  source = "./static_content/"
+}
